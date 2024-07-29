@@ -17,6 +17,18 @@ To address the declining market share and revenue, the objective is to:
 2. **Revenue Analytics**: Analyzes revenue trends and performance.
 3. **Property Booking Insights**: Offers insights into booking patterns and property performance.
 4. **Ribbon Analytics**: Detailed analysis of ribbon data.
+## Data Review
+### Data Sets
+The project includes booking details for all AtliQ hotels over a three-month period, provided in five Excel files. These files contain:
+- **Dimension and Fact tables**.
+- **Metrics List**: Sample measures that can be used to generate insights and create the dashboard.
+### Mockup Dashboard
+A sample mockup dashboard is included to guide the development of the final dashboard. This mockup provides a reference for creating visuals and measures to enhance data insights.
+### Data Model
+The data model for this project is designed using a star schema, which helps in efficient querying and reporting. The star schema includes:
+- **Fact Table**: Central table containing transactional data.
+- **Dimension Tables**: Tables containing descriptive attributes related to the fact table.
+
 ## Technical Tags
 - Power BI
 - Excel
